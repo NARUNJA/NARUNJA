@@ -5,7 +5,7 @@ class ButtonRegister extends Component {
     render() {
         return (
             <div className="container">
-                <Link to={'./Register'}> <button type="button" className="btn btn-primary">Register</button> </Link>
+                <Link to={'./Register'}> <button type="button" className="btn btn-warning">Register</button> </Link>
             </div>
         );
     }

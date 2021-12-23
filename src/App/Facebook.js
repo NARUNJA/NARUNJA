@@ -51,11 +51,11 @@ export default class Facebook extends Component {
             width: "95%",
             margin: "auto",
             background: "black",
-            color: 'white',
+            color: 'black',
             padding: "25px",
             position: 'absolute',
             zIndex: 99,
-            backgroundImage: 'linear-gradient(45deg, rgba(218, 132, 230, 0.84) 0%, rgba(179, 0, 89, 1) 83%)'
+            background: 'linear-gradient(120deg, rgba(0,91,234,1) 0%, rgba(0,198,251,1) 100%)'
           }}
         >
           <img src={JSON.parse(localStorage.getItem('user')).picture.data.url} alt />
@@ -81,7 +81,7 @@ export default class Facebook extends Component {
           }}
         >
           <FacebookLogin
-            appId="643040756861360"
+            appId="283003413832678"
             autoLoad={false}
             fields="name,email,picture"
             onClick={this.componentClicked}
